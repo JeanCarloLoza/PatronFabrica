@@ -1,0 +1,11 @@
+C:\Trabajo\Cursos\Patrones\Fabrica\PatronFabrica\PatronFabrica\bin\Debug\netcoreapp3.1\PatronFabrica.exe
+C:\Trabajo\Cursos\Patrones\Fabrica\PatronFabrica\PatronFabrica\bin\Debug\netcoreapp3.1\PatronFabrica.deps.json
+C:\Trabajo\Cursos\Patrones\Fabrica\PatronFabrica\PatronFabrica\bin\Debug\netcoreapp3.1\PatronFabrica.runtimeconfig.json
+C:\Trabajo\Cursos\Patrones\Fabrica\PatronFabrica\PatronFabrica\bin\Debug\netcoreapp3.1\PatronFabrica.runtimeconfig.dev.json
+C:\Trabajo\Cursos\Patrones\Fabrica\PatronFabrica\PatronFabrica\bin\Debug\netcoreapp3.1\PatronFabrica.dll
+C:\Trabajo\Cursos\Patrones\Fabrica\PatronFabrica\PatronFabrica\bin\Debug\netcoreapp3.1\PatronFabrica.pdb
+C:\Trabajo\Cursos\Patrones\Fabrica\PatronFabrica\PatronFabrica\obj\Debug\netcoreapp3.1\PatronFabrica.csprojAssemblyReference.cache
+C:\Trabajo\Cursos\Patrones\Fabrica\PatronFabrica\PatronFabrica\obj\Debug\netcoreapp3.1\PatronFabrica.AssemblyInfoInputs.cache
+C:\Trabajo\Cursos\Patrones\Fabrica\PatronFabrica\PatronFabrica\obj\Debug\netcoreapp3.1\PatronFabrica.AssemblyInfo.cs
+C:\Trabajo\Cursos\Patrones\Fabrica\PatronFabrica\PatronFabrica\obj\Debug\netcoreapp3.1\PatronFabrica.dll
+C:\Trabajo\Cursos\Patrones\Fabrica\PatronFabrica\PatronFabrica\obj\Debug\netcoreapp3.1\PatronFabrica.pdb

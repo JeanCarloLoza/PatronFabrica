@@ -6,14 +6,15 @@ namespace PatronFabrica
     {
         static void Main(string[] args)
         {
+            IFabrica fabrica;
             string cConcepto = "";
             string cImporte = "";
             string cModalidad = "";
             double dImporte = 0;
-            bool lAutorizado = false;
+            string cRespuesta = "";
 
             Console.WriteLine("Concepto del pedido");
-            cConcepto=Console.ReadLine();
+            cConcepto = Console.ReadLine();
             Console.WriteLine("Importe del pedido");
             cImporte = Console.ReadLine();
             Console.WriteLine("Modalidad del pedido");
@@ -22,23 +23,23 @@ namespace PatronFabrica
             cModalidad = cModalidad.ToUpper();
             dImporte = double.Parse(cImporte);
 
-            switch (cModalidad) {
+            switch (cModalidad)
+            {
                 case "EFECTIVO":
-                    cModalidad = "en efectivo";
-                    lAutorizado = dImporte <= 5000;
+                    fabrica = new GeneradorEfectivo();
                     break;
                 case "TARJETA":
-                    cModalidad = "con tarjeta";
-                    lAutorizado = dImporte > 5000;
+                    fabrica = new GeneradorTarjeta();
                     break;
                 default:
                     throw new Exception("Concepto Erroneo");
-                    break;
             }
 
-            Console.WriteLine(string.Format(
-                "Pedido {0} con importe de {1} {2} fue {3} ",
-                cConcepto,cImporte,cModalidad, lAutorizado ? "autorizado" : "rechazado"));
+            IProcesarPedido procesador = new ProcesadorPedido(fabrica);
+
+            cRespuesta=procesador.procesar(cConcepto, dImporte);
+
+            Console.WriteLine(cRespuesta);
         }
     }
 }
